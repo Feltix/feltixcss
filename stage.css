@@ -1,23 +1,29 @@
+/*!
+* Feltix CSS
+* Copyright Evert Provoost.
+* Licensed under MIT.
+*/
+
 .stage>div.slug {
     margin-top: 2em;
-    padding-left: 2.5in;
-    width: 3.5in;
+    padding-left: 25ch;
+    width: 35ch;
     text-decoration: underline;
 }
 
 .stage>div.act {
     margin-top: 1em;
-    padding-left: 2.5in;
-    width: 3.5in;
+    padding-left: 25ch;
+    width: 35ch;
     text-transform: uppercase;
     text-decoration: underline;
 }
 
 .stage>div.action {
     margin-top: 1em;
-    padding-left: 1in;
+    padding-left: 10ch;
     font-style: italic;
-    width: 5in;
+    width: 50ch;
 }
 
 .stage>div.lyrics {
@@ -42,7 +48,7 @@
 }
 
 .stage>div.dialog>p.parenthetical {
-    padding-left: 1.5in;
+    padding-left: 15ch;
     text-indent: -1ch;
 }
 
@@ -52,7 +58,7 @@
 }
 
 .stage>div.dialog>p {
-    padding-left: 0.5in;
+    padding-left: 5ch;
 }
 
 .stage>div.dual>div {
@@ -60,11 +66,11 @@
 }
 
 .stage>div.dual>p.character {
-    margin-left: -0.5in;
+    margin-left: -5ch;
 }
 
 .stage>div.dual>p.parenthetical {
-    padding-left: 0.5in;
+    padding-left: 5ch;
     text-indent: -1ch;
 }
 
@@ -74,20 +80,20 @@
 }
 
 .stage>div.dual>div.left {
-    padding-left: 0.5in;
-    width: 2.3in;
+    padding-left: 5ch;
+    width: 23ch;
 }
 
 .stage>div.dual>div.right {
-    margin-left: 0.4in;
-    padding-left: 0.5in;
-    width: 2.3in;
+    margin-left: 4ch;
+    padding-left: 5ch;
+    width: 23ch;
 }
 
 .stage>div.slug>span.scnuml {
-    margin-left: -3.25in;
+    margin-left: -32.5ch;
 }
 
 .stage>div.slug>span.scnumr {
-    margin-right: -.25in;
+    margin-right: -2.5ch;
 }

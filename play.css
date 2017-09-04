@@ -1,3 +1,9 @@
+/*!
+* Feltix CSS
+* Copyright Evert Provoost.
+* Licensed under MIT.
+*/
+
 .play>ins {
     display: none;
 }
@@ -7,10 +13,10 @@
     font-family: 'Courier Prime', 'Courier Final Draft', 'Courier Screenplay', Courier, monospace;
     font-size: 12pt;
     text-align: left;
-    width: 6in;
-    padding: 1in 1in 1in 1.5in;
+    width: 60ch;
+    padding: 10ch 10ch 10ch 15ch;
     position: relative;
-    margin: 0.5in auto;
+    margin: 5ch auto;
 }
 
 .play> :first-child {
@@ -22,21 +28,21 @@
 }
 
 .play>div {
-    width: 6in;
+    width: 60ch;
 }
 
 .play>.centered {
     text-align: center;
 }
 
-.play>.page-break {
+.play>div.page-break {
     page-break-before: always;
     display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 0.5in 0 0.5in -0.5in;
-    padding: 0 0.5in 0 0;
+    margin: 5ch 0 5ch -5ch;
+    padding: 0 5ch 0 0;
 }
 
 .play>div.slug>span.scnuml,
@@ -46,10 +52,8 @@
     font-weight: inherit;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-    -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    -o-user-select: none;
     user-select: none;
 }
 

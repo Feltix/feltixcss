@@ -1,3 +1,9 @@
+/*!
+* Feltix CSS
+* Copyright Evert Provoost.
+* Licensed under MIT.
+*/
+
 html,
 body,
 div,
@@ -32,17 +38,11 @@ body {
     body {
         background: #fff;
     }
-    body * {
-        visibility: hidden;
-    }
-    .play * {
-        visibility: visible;
-    }
     .play {
         padding-top: 0;
         padding-bottom: 0;
     }
-    .page-break {
-        visibility: hidden;
+    .play>div.page-break {
+        display: none;
     }
 }
