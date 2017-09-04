@@ -1,0 +1,48 @@
+html,
+body,
+div,
+span,
+p,
+ins,
+b,
+i,
+u {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    word-wrap: break-word;
+}
+
+body {
+    background: #ccc;
+    text-align: center;
+}
+
+@page {
+    size: letter;
+    width: 8.5in;
+    height: 9in;
+    margin: 1in 0;
+}
+
+@media print {
+    body {
+        background: #fff;
+    }
+    body * {
+        visibility: hidden;
+    }
+    .play * {
+        visibility: visible;
+    }
+    .play {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .page-break {
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,62 @@
+.play>ins {
+    display: none;
+}
+
+.play {
+    background: #fff;
+    font-family: 'Courier Prime', 'Courier Final Draft', 'Courier Screenplay', Courier, monospace;
+    font-size: 12pt;
+    text-align: left;
+    width: 6in;
+    padding: 1in 1in 1in 1.5in;
+    position: relative;
+    margin: 0.5in auto;
+}
+
+.play> :first-child {
+    margin-top: 0 !important;
+}
+
+.play>div.dual {
+    display: table;
+}
+
+.play>div {
+    width: 6in;
+}
+
+.play>.centered {
+    text-align: center;
+}
+
+.play>.page-break {
+    page-break-before: always;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0.5in 0 0.5in -0.5in;
+    padding: 0 0.5in 0 0;
+}
+
+.play>div.slug>span.scnuml,
+.play>div.slug>span.scnumr {
+    display: block;
+    float: left;
+    font-weight: inherit;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.play>div.slug>span.scnuml {
+    float: left;
+}
+
+.play>div.slug>span.scnumr {
+    float: right;
+}

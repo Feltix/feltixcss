@@ -1,0 +1,93 @@
+.stage>div.slug {
+    margin-top: 2em;
+    padding-left: 2.5in;
+    width: 3.5in;
+    text-decoration: underline;
+}
+
+.stage>div.act {
+    margin-top: 1em;
+    padding-left: 2.5in;
+    width: 3.5in;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.stage>div.action {
+    margin-top: 1em;
+    padding-left: 1in;
+    font-style: italic;
+    width: 5in;
+}
+
+.stage>div.lyrics {
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.stage>div.dialog,
+.stage>div.dual {
+    margin-top: 1em;
+}
+
+.stage>div.transition {
+    margin-top: 1em;
+    text-align: right;
+    padding: 0;
+}
+
+.stage>div.dialog>p.character {
+    padding-left: 0;
+}
+
+.stage>div.dialog>p.parenthetical {
+    padding-left: 1.5in;
+    text-indent: -1ch;
+}
+
+.stage>div.dialog>p.lyrics {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.stage>div.dialog>p {
+    padding-left: 0.5in;
+}
+
+.stage>div.dual>div {
+    float: left;
+}
+
+.stage>div.dual>p.character {
+    margin-left: -0.5in;
+}
+
+.stage>div.dual>p.parenthetical {
+    padding-left: 0.5in;
+    text-indent: -1ch;
+}
+
+.stage>div.dual>p.lyrics {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.stage>div.dual>div.left {
+    padding-left: 0.5in;
+    width: 2.3in;
+}
+
+.stage>div.dual>div.right {
+    margin-left: 0.4in;
+    padding-left: 0.5in;
+    width: 2.3in;
+}
+
+.stage>div.slug>span.scnuml {
+    margin-left: -3.25in;
+}
+
+.stage>div.slug>span.scnumr {
+    margin-right: -.25in;
+}
