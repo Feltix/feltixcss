@@ -36,7 +36,6 @@
 }
 
 .play>div.page-break {
-    page-break-before: always;
     display: block;
     height: 1px;
     border: 0;

@@ -34,15 +34,21 @@ body {
     margin: 1in 0;
 }
 
+
+/* TODO: Once possible: remove top margin of first element on a page. */
+
 @media print {
     body {
         background: #fff;
     }
     .play {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+        margin: 0!important;
     }
     .play>div.page-break {
-        display: none;
+        visibility: hidden!important;
+        margin: 0!important;
+        page-break-before: always;
     }
 }
