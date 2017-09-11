@@ -22,6 +22,18 @@ u {
     word-wrap: break-word;
 }
 
+b {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
 body {
     background: #ccc;
     text-align: center;
