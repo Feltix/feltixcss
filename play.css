@@ -4,10 +4,6 @@
 * Licensed under MIT.
 */
 
-.play ins {
-    display: none;
-}
-
 .play {
     background: #fff;
     font-family: 'Courier Prime', 'Courier Final Draft', 'Courier Screenplay', Courier, monospace;
@@ -21,6 +17,12 @@
 
 .play> :first-child {
     margin-top: 0 !important;
+}
+
+.play ins {
+    display: none;
+    text-decoration: none;
+    color: #ccc;
 }
 
 .play>div.dual {
