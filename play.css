@@ -26,7 +26,7 @@
 }
 
 .play>div.dual {
-    display: table;
+    display: flex;
 }
 
 .play>div {
