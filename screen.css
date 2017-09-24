@@ -61,17 +61,17 @@
     float: left;
 }
 
-.screen>div.dual>div p.character {
+.screen>div.dual>div>p.character {
     padding-left: 12ch;
 }
 
-.screen>div.dual>p.parenthetical {
+.screen>div.dual>div>p.parenthetical {
     padding-left: 3ch;
     text-indent: -1ch;
     padding-right: 5ch;
 }
 
-.screen>div.dual>p.lyrics {
+.screen>div.dual>div>p.lyrics {
     font-style: italic;
 }
 

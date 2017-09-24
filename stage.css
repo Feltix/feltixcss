@@ -65,16 +65,16 @@
     float: left;
 }
 
-.stage>div.dual>p.character {
+.stage>div.dual>div>p.character {
     margin-left: -5ch;
 }
 
-.stage>div.dual>p.parenthetical {
+.stage>div.dual>div>p.parenthetical {
     padding-left: 5ch;
     text-indent: -1ch;
 }
 
-.stage>div.dual>p.lyrics {
+.stage>div.dual>div>p.lyrics {
     text-transform: uppercase;
     font-style: italic;
 }
