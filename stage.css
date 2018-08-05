@@ -5,14 +5,14 @@
 */
 
 .stage>div.slug {
-    margin-top: 2em;
+    margin-top: 1em;
     padding-left: 25ch;
     width: 35ch;
     text-decoration: underline;
 }
 
 .stage>div.act {
-    margin-top: 1em;
+    margin-top: 0;
     padding-left: 25ch;
     width: 35ch;
     text-transform: uppercase;
@@ -21,14 +21,12 @@
 
 .stage>div.action {
     margin-top: 1em;
-    padding-left: 10ch;
-    font-style: italic;
-    width: 50ch;
+    padding-left: 12.5ch;
+    width: 33ch;
 }
 
 .stage>div.lyrics {
     margin-top: 1em;
-    text-transform: uppercase;
     font-style: italic;
 }
 
@@ -39,26 +37,21 @@
 
 .stage>div.transition {
     margin-top: 1em;
-    text-align: right;
-    padding: 0;
+    padding-left: 25ch;
+    width: 35ch;
 }
 
 .stage>div.dialog>p.character {
-    padding-left: 0;
+    padding-left: 25ch;
 }
 
 .stage>div.dialog>p.parenthetical {
-    padding-left: 15ch;
-    text-indent: -1ch;
+    padding-left: 12.5ch;
+    width: 33ch;
 }
 
 .stage>div.dialog>p.lyrics {
-    text-transform: uppercase;
     font-style: italic;
-}
-
-.stage>div.dialog>p {
-    padding-left: 5ch;
 }
 
 .stage>div.dual>div {
@@ -66,28 +59,25 @@
 }
 
 .stage>div.dual>div>p.character {
-    margin-left: -5ch;
+    margin-left: 8ch;
 }
 
 .stage>div.dual>div>p.parenthetical {
-    padding-left: 5ch;
-    text-indent: -1ch;
+    padding-left: 3.5ch;
+    width: 18ch;
 }
 
 .stage>div.dual>div>p.lyrics {
-    text-transform: uppercase;
     font-style: italic;
 }
 
 .stage>div.dual>div.left {
-    padding-left: 5ch;
-    width: 23ch;
+    width: 28ch;
 }
 
 .stage>div.dual>div.right {
     margin-left: 4ch;
-    padding-left: 5ch;
-    width: 23ch;
+    width: 28ch;
 }
 
 .stage>div.slug>span.scnuml {
