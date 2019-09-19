@@ -10,17 +10,11 @@
     font-size: 12pt;
     text-align: left;
     width: 60ch;
-    padding: 10ch 10ch 10ch 15ch;
+    margin: 10ch 10ch 10ch 15ch;
     position: relative;
-    margin: 5ch auto;
-}
-
-.play> :first-child {
-    margin-top: 0 !important;
 }
 
 .play ins {
-    display: none;
     text-decoration: none;
     color: #ccc;
 }

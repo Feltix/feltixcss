@@ -39,25 +39,28 @@ body {
     text-align: center;
 }
 
+.page {
+    display: inline-block;
+    margin: 5ch auto;
+    background: #fff;
+}
+
 @page {
     size: letter;
     width: 8.5in;
     height: 9in;
-    margin: 1in 0;
 }
 
-
-/* TODO: Once possible: remove top margin of first element on a page. */
 
 @media print {
     body {
         background: #fff;
     }
-    .play {
-        padding-top: 0!important;
-        padding-bottom: 0!important;
+
+    .page {
         margin: 0!important;
     }
+
     .play>div.page-break {
         visibility: hidden!important;
         margin: 0!important;
